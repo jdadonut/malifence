@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BOB",
+    "OPO",
+    " R "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "R": {
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "P": {
+      "item": "minecraft:diamond_axe"
+    }
+  },
+  "result": {
+    "item": "malifence:diamidian_axe",
+    "count": 1
+  }
+}
