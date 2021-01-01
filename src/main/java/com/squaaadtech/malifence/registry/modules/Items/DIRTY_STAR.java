@@ -6,12 +6,11 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
+public class DIRTY_STAR {
 
-public class DEFAULT_ITEM {
-
-    public static final Item ITEM_NAME = new Item(new Item.Settings().group(ItemGroup.TOOLS).maxCount(1).fireproof());
+    public static final Item DIRTY_STAR = new Item(new Item.Settings().group(ItemGroup.MISC).maxCount(8).fireproof());
 
     public static void doRegister() {
-        Registry.register(Registry.ITEM, new Identifier(Malifence.MOD_ID, "item_name"), ITEM_NAME);
+        Registry.register(Registry.ITEM, new Identifier(Malifence.MOD_ID, "dirty_star"), DIRTY_STAR);
     }
 }

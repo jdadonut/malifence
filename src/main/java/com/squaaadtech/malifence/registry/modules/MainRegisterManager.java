@@ -29,5 +29,6 @@ public class MainRegisterManager {
         public static void Diamidian(){
             DiamidianManager.doRegister();
         }
+        public static void DirtyStar() {  }
     }
 }
